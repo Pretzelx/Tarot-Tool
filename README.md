@@ -43,4 +43,8 @@ The 3-card spread is a simple yet effective spread to provide insights into a si
 - **Interactive Readings:** Users can choose between different spreads and enter card names and orientations for personalized readings.
 
 
+## Further Information
+- The initial datset was downloaded from [kaggle](https://www.kaggle.com/datasets/lsind18/tarot-json) which contains imagery and interpretations specifically of the [Rider-Waite Tarot deck](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot) I added further columns according to what I saw fit, to build a comprehensive datset of tarot card meanings. 
+
+
 
