@@ -1,5 +1,5 @@
 # Tarot-Tool
-This is a tool to help learn the meanings and interprentations This is a tool to utilize alongside your own personal tarot card draws. I have provided a basic meanings and interpretations of each card. Take what resonates
+This is a tool to help learn the meanings and interprentations that can be used alongside your own personal tarot card draws. I have provided basic meanings and interpretations of each card. Take what resonates ❤️🔮
 # Tarot Reading Tool
 
 ## Introduction
@@ -36,27 +36,8 @@ The 3-card spread is a simple yet effective spread to provide insights into a si
 - **Present:** The current state or circumstances.
 - **Future:** Potential outcomes or future influences.
 
-## Features
+## Feature
 - **Interactive Readings:** Users can choose between different spreads and enter card names and orientations for personalized readings.
-- **Astrological Insights:** Integrate astrological data with tarot readings (future enhancement).
 
-## Installation
-To install and run the Tarot Reading Tool, follow these steps:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/tarot-reading-tool.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd tarot-reading-tool
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-## Usage
-Run the tarot reading tool by executing the following command:
-```bash
-python tarot_reading.py
