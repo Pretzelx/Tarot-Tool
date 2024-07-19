@@ -1,3 +1,6 @@
+The Web application cn be accessed here ---> https://pretzelx-tarot-tool-gui-vzrkao.streamlit.app/
+
+
 # Tarot-Tool
 This is a tool to help learn the meanings and interprentations that can be used alongside your own personal tarot card draws. I have provided basic meanings and interpretations of each card. Take what resonates ❤️🔮
 # Tarot Reading Tool
