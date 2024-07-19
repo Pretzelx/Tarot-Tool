@@ -1,7 +1,3 @@
-## Tarot Card Interpretor Ideas
-
-## What are tarot cards? pytho
-## Tarot cards include a deck of 78 cards that are used for divination and understanding/confirming decisions or future decisions. The cards are divided into two groups: the Major Arcana and the Minor Arcana. The Major Arcana consists of 22 cards that represent the major events and themes in a person's life. The Minor Arcana consists of 56 cards that represent the minor events and themes in a person's life. The cards can be used to tell fortunes, but they can also be used to tell stories. The cards are used to gain insight into a person's past, present, and future. The cards can also be used to gain insight into a person's personality, relationships, and career. The cards can be used to predict the future, but they can also be used to explore the past. The cards can be used to gain insight into a person's life, but they can also be used to gain insight into a person's soul. The cards can be used to gain insight into a person's mind, but they can also be used to gain insight into a person's heart. The cards can be used to gain insight into a person's life, but they can also be used to gain insight into a person's soul.
 
 import pandas as pd
 import random
@@ -11,13 +7,12 @@ import json
 import logging 
 
 
-tarot_df = pd.read_csv ('C:/Users/Startklar/OneDrive/Desktop/Data Portfolio stuff/Tarot interpretor/Tarot Card Master Sheet csv.csv')
+tarot_df = pd.read_csv ('Tarot-Tool/Tarot Card Master Sheet.csv')
+
 tarot_df.tail(5)
 tarot_df.dropna(axis=1)
 
-# tarot_df.head()
-## Class - Tarot Cards: To load the cards
-## Class - Tarot Deck: To load the deck
+
 
 class TarotCard:
     def __init__(self, name, number, arcana, suit, image, fortune, keywords_upright, keywords_reversed, upright_meaning, reverse_meaning, archetype, numerology, elements_planets, mythical, questions):
@@ -70,13 +65,14 @@ class TarotDeck:
     def draw_cards(self, num_cards):
         return random.sample(self.cards, num_cards)
 tarot_df.columns
+
 ## Interpret the cards based on the cards orientation - Upright or Reversed
 
 def interpret_card(card_name, orientation, tarot_df):
 
-    """Interpret a tarot card based on its name, orientation, and the tarot deck"""
+    """Interpreting a tarot card based on its name, orientation, and the tarot deck"""
     
-    #card = next((c for c in tarot_deck.cards if c.name == card_name), None)
+
     card = next((c for c in tarot_deck.cards if c.name.lower() == card_name.lower()), None)
     
     if not card: 
@@ -141,6 +137,7 @@ def tarot_reading(tarot_deck):
 ## Main Execution
 
 tarot_df['Name'] = tarot_df['Name'].str.strip()
-tarot_df = pd.read_csv("C:/Users/Startklar/OneDrive/Desktop/Data Portfolio stuff/Tarot interpretor/Tarot Card Master Sheet csv.csv")
+
 tarot_deck = TarotDeck(tarot_df)
+
 tarot_reading(tarot_deck)
