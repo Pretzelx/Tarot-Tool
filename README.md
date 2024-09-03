@@ -1,4 +1,4 @@
-The Web application cn be accessed here ---> https://pretzelx-tarot-tool-gui-vzrkao.streamlit.app/
+The Web application can be accessed here ---> https://pretzelx-tarot-tool-gui-vzrkao.streamlit.app/
 
 
 # Tarot-Tool
